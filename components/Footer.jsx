@@ -191,8 +191,7 @@ function Footer() {
                                         }
                                     }} component="div">
                                         BIOKRIPT<br />
-                                        71-75 Shelton Street London Greater London WC2H 9JQ UNITED KINGDOM
-                                        Copyright ©2020 All rights reserved
+                                        Sarajevo, 71000, Bosnia and Herzegovina
                                     </Typography>
                                 </Box>
                             </Box>
@@ -229,7 +228,7 @@ function Footer() {
                         <Typography variant="h2" sx={{
                             fontSize: '12px', fontWeight: 400, color: '#508fc7', fontFamily: "Source Sans Pro"
                         }} component="div">
-                            © Developed by Biokript ,2020.
+                            © Developed by Biokript, 2022.
                         </Typography>
                         <Box sx={{
                             display: 'flex', justifyContent: 'center', alignItems: 'center', mt: {
