@@ -134,7 +134,7 @@ function Hero() {
                                 </Box>
                             </Container>
                         </Box>
-                        <Box sx={{ width: '100%', height: '100%', position: 'relative',height:'100vh',background:'rgba(31,53,219)' }} >
+                        <Box sx={{ width: '100%', height: '100%', position: 'relative',height:'100vh',background:"radial-gradient(rgba(31,53,219),black)" }} >
                             {/* <Box sx={{ width: '100%', height: "100%" }} >
                                 <img style={{ width: '100%', height: '100vh', objectFit: 'cover' }} src="/slide2.jpg" alt="slideBG" />
                             </Box> */}
