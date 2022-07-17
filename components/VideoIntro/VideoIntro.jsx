@@ -21,13 +21,13 @@ function VideoIntro() {
         <Box className='player-wrapper' sx={{ width: '100%', height: '100vh', overflow: 'hidden', position: 'relative', background: 'black' }} >
             <ReactPlayer
                 className='react-player'
-                url={'/video/video2.mp4'}
+                url={'/video/video.mp4'}
                 width='100%'
                 height='100%'
-                // volume={0.1}
-                controls={true}
-                // muted={false}
-                playing={1}
+                volume={0.1}
+                // controls={true}
+                muted={true}
+                playing={true}
                 // loop={false}
             />
         </Box>
