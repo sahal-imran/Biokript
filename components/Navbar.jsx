@@ -27,8 +27,8 @@ function Navbar() {
             <Image
               src="/b.png"
               alt="Logo"
-              width={40}
-              height={40}
+              width={30}
+              height={30}
             />
             <Typography variant="h6" sx={{ fontSize: '30px', fontWeight: 700, color: 'white', ml: 1, textTransform: 'uppercase' }} component="div">
               Biokript

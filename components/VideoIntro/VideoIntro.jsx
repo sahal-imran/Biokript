@@ -8,7 +8,7 @@ function VideoIntro() {
     const router = useRouter();
     useEffect(() => {
       setTimeout(() => {
-        // router.push('/home');
+        router.push('/home');
       }, 7000);
     
       return () => {
@@ -24,10 +24,10 @@ function VideoIntro() {
                 url={'/video/video.mp4'}
                 width='100%'
                 height='100%'
-                volume={0.1}
-                // controls={true}
+                volume={0.9}
                 muted={true}
                 playing={true}
+                // controls={true}
                 // loop={false}
             />
         </Box>

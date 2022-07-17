@@ -30,7 +30,7 @@ function Card(props) {
                     <Typography variant="h6" sx={{
                         fontSize: '18px', fontWeight: 600, color: '#508FC7'
                     }} component="div">
-                        {props.name}
+                        {props.name.slice(0,10)}
                     </Typography>
                     <Typography variant="h6" sx={{
                         fontSize: '18px', fontWeight: 600, color: '#00ff0c'
