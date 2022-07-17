@@ -8,19 +8,12 @@ import TradingWith from '../components/TradingWith';
 import OpenAccount from '../components/OpenAccount';
 import DownloadApp from '../components/DownloadApp';
 import Innovative from '../components/Innovative';
+import VideoIntro from '../components/VideoIntro/VideoIntro';
 
 function index() {
   return (
     <>
-    <Hero />
-    <CryptoSlider />
-    <TopCryptoAssets />
-    <OurWorldClassTradingPlatform />
-    <Features />
-    <TradingWith />
-    <Innovative />
-    <OpenAccount />
-    <DownloadApp />
+    <VideoIntro />
     </>
   )
 }

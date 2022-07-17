@@ -15,15 +15,17 @@ import { BsTwitter } from 'react-icons/bs'
 import { FaPinterestP } from 'react-icons/fa'
 import { FaTelegramPlane } from 'react-icons/fa'
 import { FaLinkedinIn } from 'react-icons/fa'
+import { useRouter } from 'next/router';
 
 
 function Footer() {
+    const router = useRouter();
 
     const [Email, set_Email] = useState('');
 
     return (
         <>
-            <Box sx={{ width: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center', background: '#000000' }} >
+            <Box sx={router.pathname === '/' ? {display:'none'} : { width: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center', background: '#000000' }} >
                 <Container maxWidth="lg" sx={{
                     display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column', mt: 8, mb: 4
                 }} >
@@ -49,7 +51,7 @@ function Footer() {
                         }} >
                             <Box component={'div'} sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center', position: 'relative', zIndex: 2 }} >
                                 <Image
-                                    src="/logo.png"
+                                    src="/b.png"
                                     alt="Logo"
                                     width={30}
                                     height={30}

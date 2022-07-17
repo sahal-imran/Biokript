@@ -53,7 +53,7 @@ function About() {
                         <Typography variant="h2" sx={{
                             fontSize: '16px', lineHeight: '24px', fontWeight: 500, color: '#787878', mb: '25px', fontFamily: "Source Sans Pro",
                         }} component="div">
-                            Biokript is a Bitcoin-based platform, offering a leveraged trading on several digital assets including Bitcoin, Ethereum, Litecoin, Ripple and Bitcoin Cash. We provide our clients with access to top-tier liquidity and wide range of tradināg tools, while maintaining security, liquidity, enabling a safe and efficient trading environment for everyone.
+                            Legally incorporated in United States and headquartered in Sarajevo, Bosnia and Herzegovina, Biokript is the world’s first hybrid, Shariah-compliant cryptocurrency platform. With Biokript’s next generation, blockchain-powered platform, you can securely buy, sell, and store digital assets while fully controlling your private keys. 
                         </Typography>
                         <Typography variant="h2" sx={{
                             fontSize: '30px', fontWeight: 500, color: '#000', mb: '0.5rem', fontFamily: "Source Sans Pro",
@@ -63,7 +63,7 @@ function About() {
                         <Typography variant="h2" sx={{
                             fontSize: '16px', lineHeight: '24px', fontWeight: 500, color: '#787878', fontFamily: "Source Sans Pro",
                         }} component="div">
-                            Biokript offers a robust trading system for both beginners and professional traders that demand highly reliable market data and performance. Entire infrastructure is designed to facilitate high number of orders per second and extreme loads, while offering ultra-fast
+                            Our next generation, blockchain-based trading platform is far more secure and superior than today’s centralized exchanges. With the cutting-edge state technology, it will offer ultra-high-speed trade settlements, low fees, and sufficient liquidity at lowest prices. It is a Web3 solution with near-instant off-chain transactions. 
                         </Typography>
                     </Box>
                 </Box>
@@ -71,11 +71,9 @@ function About() {
                     <Typography variant="h2" sx={{
                         fontSize: '16px', lineHeight: '24px', fontWeight: 500, color: '#787878', fontFamily: "Source Sans Pro",
                     }} component="div">
-                        order execution and low latency. Our traders of all experience levels can easily design and customize layouts and widgets to best fit their trading style. We are proud to offer such innovative products and professional trading conditions to all our customers.<br />
+                        Biokript has the lowest latency at any point on the globe. Compared to centralized exchanges with latency of 50-450 ms and decentralized exchanges’ latency of 30-120 ms, Biokript will be far ahead of them with latency of 10-50 ms.<br />
                         <br />
-                        All trades on Biokript trading platform are executed at one of our Amazon AWS servers. We are connected with multiple liquidity providers to ensure low latency and smooth pricing on all available assets<br />
-                        <br />
-                        Everything we do, from our continuous investment in R&D to the ongoing expansion of our product offering to our clients, is a demonstration of how dynamic Bitegen really is. It is always our aim to serve the best interests of our clients and continue providing the best in class digital asset trading experience in the industry.
+                        Since all of the Biokript’s transactions are done on blockchain, everything is transparent and open for review, unlike centralized exchanges where everything is stored inside a single server without any accountability or transparency.
                     </Typography>
                 </Box>
                 <Box sx={{ width: '100%', display: 'flex', justifyContent: 'center', alignItems: 'start', flexDirection: 'column', mt: 2 }}  >
@@ -87,7 +85,7 @@ function About() {
                     <Typography variant="h2" sx={{
                         fontSize: '16px', lineHeight: '24px', fontWeight: 500, color: '#787878', fontFamily: "Source Sans Pro",
                     }} component="div">
-                        At Biokript we remain committed to creating a dynamic and most innovative platform that equips our users with all necessary tools for their trading activities. In a such rapidly-changing and ever-expanding industry, we continuously refine our services to cater to the needs of traders worldwide.
+                        With faith, integrity, and hard work our goal is to provide Shariah-compliant crypto services and in the process move the world toward decentralization by educating people about the blockchain technology.
                     </Typography>
                 </Box>
                 <Box sx={{ width: '100%', display: 'flex', justifyContent: 'center', alignItems: 'start', flexDirection: 'column', mt: 3 }}  >
@@ -99,7 +97,7 @@ function About() {
                     <Typography variant="h2" sx={{
                         fontSize: '16px', lineHeight: '24px', fontWeight: 500, color: '#787878', fontFamily: "Source Sans Pro",
                     }} component="div">
-                        We have always followed a client-oriented approach and placed our clients’ interests at the center of all our operations. Biokript team has a goal to be among the best online trading platforms in the cryptocurrency industry and to retain our reputation as a most reliable and trusted partner.
+                        Upholding the basic tenants of decentralization, Biokript’s mission is to empower new and experienced crypto investors to engage in new digital economy without relinquishing their wealth to central authority. Through our next-generation blockchain-powered platform and educational approach our goal is to become world’s most trusted cryptocurrency exchange. 
                     </Typography>
                 </Box>
             </Container>
