@@ -9,7 +9,7 @@ function VideoIntro() {
     useEffect(() => {
       setTimeout(() => {
         router.push('/home');
-      }, 7000);
+      }, 8000);
     
       return () => {
         // setTimeout()
