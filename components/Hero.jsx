@@ -37,7 +37,7 @@ function Hero() {
         <>
             <Box sx={{ position: 'relative', overflow: 'hidden' }} >
                 <Box>
-                    <Slider ref={c => (slider.current = c)} style={{ width: '100vw', height: '100vh' }} {...settings}>
+                    <Slider ref={c => (slider.current = c)} style={{ width: '100vw', height: 'calc(100vh - 70px)' }} {...settings}>
                         <Box sx={{ width: '100%', height: '100%', position: 'relative' }} >
                             <Box sx={{ width: '100%', height: "100%" }} >
                                 <img style={{ width: '100%', height: '100vh', objectFit: 'cover' }} src="/slide1.jpg" alt="slideBG" />
