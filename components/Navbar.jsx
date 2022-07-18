@@ -41,8 +41,8 @@ function Navbar() {
             }, justifyContent: 'space-between', alignItems: 'center', position: 'relative', zIndex: 2
           }} >
 
-            <Link href="/">
-              <a className={router.pathname == '/' ? 'navLink active' : 'navLink'} >Home</a>
+            <Link href="/home">
+              <a className={router.pathname == '/home' ? 'navLink active' : 'navLink'} >Home</a>
             </Link>
             <Link href="/about">
               <a className={router.pathname == '/about' ? 'navLink active' : 'navLink'} >About</a>
@@ -83,7 +83,7 @@ function Navbar() {
               </Typography>
             </Box>
             <Box sx={{ width: '100%', display: "flex", justifyContent: 'center', alignItems: 'start', flexDirection: 'column', mt: 4 }} >
-              <Link href="/">
+              <Link href="/home">
                 <a onClick={toggleDrawer} className='navLink1' >Home</a>
               </Link>
               <Link href="/about">
