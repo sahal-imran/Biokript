@@ -25,14 +25,14 @@ function Navbar() {
         <Container maxWidth="lgBig" sx={{ height: '100%', display: 'flex', justifyContent: 'space-between', alignItems: 'center' }} >
           <Box component={'div'} sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center', position: 'relative', zIndex: 2 }} >
             <Image
-              src="/b.png"
+              src="/logo.png"
               alt="Logo"
-              width={30}
-              height={30}
+              width={60}
+              height={50}
             />
-            <Typography variant="h6" sx={{ fontSize: '30px', fontWeight: 700, color: 'white', ml: 1, textTransform: 'uppercase' }} component="div">
+            {/* <Typography variant="h6" sx={{ fontSize: '30px', fontWeight: 700, color: 'white', ml: 1, textTransform: 'uppercase' }} component="div">
               Biokript
-            </Typography>
+            </Typography> */}
           </Box>
           <Box component={'div'} sx={{
             display: {

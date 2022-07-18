@@ -77,10 +77,6 @@ const WhitepaperImageURLs = [
         alt: 'Slide8'
     },
     {
-        URL: 'Whitepaper/Slide8.jpg',
-        alt: 'Slide8'
-    },
-    {
         URL: 'Whitepaper/Slide9.jpg',
         alt: 'Slide9'
     },
@@ -137,8 +133,8 @@ const WhitepaperImageURLs = [
         alt: 'Slide22'
     },
     {
-        URL: 'Whitepaper/Slide20.jpg',
-        alt: 'Slide20'
+        URL: 'Whitepaper/Slide23.jpg',
+        alt: 'Slide23'
     },
     {
         URL: 'Whitepaper/Slide24.jpg',

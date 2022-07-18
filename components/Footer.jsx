@@ -25,7 +25,7 @@ function Footer() {
 
     return (
         <>
-            <Box sx={router.pathname === '/' ? {display:'none'} : { width: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center', background: '#000000' }} >
+            <Box sx={router.pathname === '/' ? { display: 'none' } : { width: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center', background: '#000000' }} >
                 <Container maxWidth="lg" sx={{
                     display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column', mt: 8, mb: 4
                 }} >
@@ -51,14 +51,14 @@ function Footer() {
                         }} >
                             <Box component={'div'} sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center', position: 'relative', zIndex: 2 }} >
                                 <Image
-                                    src="/b.png"
+                                    src="/logo.png"
                                     alt="Logo"
-                                    width={30}
-                                    height={30}
+                                    width={60}
+                                    height={50}
                                 />
-                                <Typography variant="h6" sx={{ fontSize: '30px', fontWeight: 700, color: 'white', ml: 1, textTransform: 'uppercase' }} component="div">
+                                {/* <Typography variant="h6" sx={{ fontSize: '30px', fontWeight: 700, color: 'white', ml: 1, textTransform: 'uppercase' }} component="div">
                                     Biokript
-                                </Typography>
+                                </Typography> */}
                             </Box>
                             <Box sx={{
                                 width: {
