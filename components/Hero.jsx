@@ -35,7 +35,7 @@ function Hero() {
 
     return (
         <>
-            <Box sx={{ position: 'relative', overflow: 'hidden', mt: '-70px' }} >
+            <Box sx={{ position: 'relative', overflow: 'hidden' }} >
                 <Box>
                     <Slider ref={c => (slider.current = c)} style={{ width: '100vw', height: '100vh' }} {...settings}>
                         <Box sx={{ width: '100%', height: '100%', position: 'relative' }} >

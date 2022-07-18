@@ -21,7 +21,7 @@ function Navbar() {
 
   return <>
     <Box sx={router.pathname === '/' ? { display: 'none' } : { display: 'block' }} >
-      <Box component={'div'} sx={router.pathname == '/' ? { zIndex: 999, width: '100%', backgroundColor: 'unset', height: '70px' } : { zIndex: 999, width: '100%', backgroundColor: '#2b2e8e', height: '70px' }} >
+      <Box component={'div'} sx={{ zIndex: 999, width: '100%', backgroundColor: '#2b2e8e', height: '70px' }} >
         <Container maxWidth="lgBig" sx={{ height: '100%', display: 'flex', justifyContent: 'space-between', alignItems: 'center' }} >
           <Box component={'div'} sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center', position: 'relative', zIndex: 2 }} >
             <Image
@@ -30,9 +30,6 @@ function Navbar() {
               width={60}
               height={50}
             />
-            {/* <Typography variant="h6" sx={{ fontSize: '30px', fontWeight: 700, color: 'white', ml: 1, textTransform: 'uppercase' }} component="div">
-              Biokript
-            </Typography> */}
           </Box>
           <Box component={'div'} sx={{
             display: {
