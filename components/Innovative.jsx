@@ -26,12 +26,12 @@ export default function Innovative() {
                                     <Typography variant="h6" sx={{
                                         fontSize: '24px', fontWeight: 600, color: '#0f579f', textAlign: 'center'
                                     }} component="div">
-                                        Innovative
+                                        THE NEXT GENERATION CRYPTOCURRENCY EXCHANGE
                                     </Typography>
                                     <Typography variant="h2" sx={{
                                         fontSize: '16px', lineHeight: '24px', fontWeight: 500, color: '#5d5d5d', fontFamily: "Source Sans Pro",textAlign:'start',mt:3
                                     }} component="div">
-                                        Biokript combines the bext features of centalized (CEXs) and decentralized exchnage (DEXs)
+                                        Biokript has the best features of centralized and decentralized exchanges.
                                     </Typography>
                                 </Box>
                             </Box>
@@ -43,12 +43,12 @@ export default function Innovative() {
                                     <Typography variant="h6" sx={{
                                         fontSize: '24px', fontWeight: 600, color: '#0f579f', textAlign: 'center'
                                     }} component="div">
-                                        Legally Incorporated
+                                        LEGALLY INCORPORATED
                                     </Typography>
                                     <Typography variant="h2" sx={{
                                         fontSize: '16px', lineHeight: '24px', fontWeight: 500, color: '#5d5d5d', fontFamily: "Source Sans Pro",textAlign:'start',mt:3
                                     }} component="div">
-                                        Legally Incorporated-Biokript is legally incorporated in Estonia and abides by EU exchnage regualtions
+                                        Biokript is legally incorporated in United States with affiliate offices in Bosnia and Herzegovina.
                                     </Typography>
                                 </Box>
                             </Box>
@@ -60,12 +60,12 @@ export default function Innovative() {
                                     <Typography variant="h6" sx={{
                                         fontSize: '24px', fontWeight: 600, color: '#0f579f', textAlign: 'center'
                                     }} component="div">
-                                        Profit Sharing
+                                        PROFIT SHARING
                                     </Typography>
                                     <Typography variant="h2" sx={{
                                         fontSize: '16px', lineHeight: '24px', fontWeight: 500, color: '#5d5d5d', fontFamily: "Source Sans Pro",textAlign:'start',mt:3
                                     }} component="div">
-                                        Profit Sharing-Biokript is the best exchnage to offer EHX stakes a share of it's profit 
+                                        Biokript is incorporating Islamic principles of Mudarabah profit sharing, where holders of Bkript token receive 50% of exchange’s profits. 
                                     </Typography>
                                 </Box>
                             </Box>
