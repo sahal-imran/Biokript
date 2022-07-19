@@ -11,6 +11,7 @@ const theme = createTheme({
       md: 900,
       lg: 1200,
       lgBig: 1400,
+      NavContainter: 1550,
       xl: 1500,
       xxl: 1700,
     },
