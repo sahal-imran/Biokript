@@ -39,123 +39,127 @@ export default Whitepaper;
 
 const WhitepaperImageURLs = [
     {
-        URL: 'Whitepaper/Slide1.png',
+        URL: 'Whitepaper/Slide1.jpg',
         alt: 'Slide1'
     },
     {
-        URL: 'Whitepaper/Slide2.png',
+        URL: 'Whitepaper/Slide2.jpg',
         alt: 'Slide2'
     },
     {
-        URL: 'Whitepaper/Slide3.png',
+        URL: 'Whitepaper/Slide3.jpg',
         alt: 'Slide3'
     },
     {
-        URL: 'Whitepaper/Slide4.png',
+        URL: 'Whitepaper/Slide4.jpg',
         alt: 'Slide4'
     },
     {
-        URL: 'Whitepaper/Slide5.png',
+        URL: 'Whitepaper/Slide5.jpg',
         alt: 'Slide5'
     },
     {
-        URL: 'Whitepaper/Slide6.png',
+        URL: 'Whitepaper/Slide6.jpg',
         alt: 'Slide6'
     },
     {
-        URL: 'Whitepaper/Slide8.png',
+        URL: 'Whitepaper/Slide7.jpg',
+        alt: 'Slide7'
+    },
+    {
+        URL: 'Whitepaper/Slide8.jpg',
         alt: 'Slide8'
     },
     {
-        URL: 'Whitepaper/Slide9.png',
+        URL: 'Whitepaper/Slide9.jpg',
         alt: 'Slide9'
     },
     {
-        URL: 'Whitepaper/Slide10.png',
+        URL: 'Whitepaper/Slide10.jpg',
         alt: 'Slide10'
     },
     {
-        URL: 'Whitepaper/Slide11.png',
+        URL: 'Whitepaper/Slide11.jpg',
         alt: 'Slide11'
     },
     {
-        URL: 'Whitepaper/Slide12.png',
+        URL: 'Whitepaper/Slide12.jpg',
         alt: 'Slide12'
     },
     {
-        URL: 'Whitepaper/Slide13.png',
+        URL: 'Whitepaper/Slide13.jpg',
         alt: 'Slide13'
     },
     {
-        URL: 'Whitepaper/Slide14.png',
+        URL: 'Whitepaper/Slide14.jpg',
         alt: 'Slide14'
     },
     {
-        URL: 'Whitepaper/Slide15.png',
+        URL: 'Whitepaper/Slide15.jpg',
         alt: 'Slide15'
     },
     {
-        URL: 'Whitepaper/Slide16.png',
+        URL: 'Whitepaper/Slide16.jpg',
         alt: 'Slide16'
     },
     {
-        URL: 'Whitepaper/Slide17.png',
+        URL: 'Whitepaper/Slide17.jpg',
         alt: 'Slide17'
     },
     {
-        URL: 'Whitepaper/Slide18.png',
+        URL: 'Whitepaper/Slide18.jpg',
         alt: 'Slide18'
     },
     {
-        URL: 'Whitepaper/Slide19.png',
+        URL: 'Whitepaper/Slide19.jpg',
         alt: 'Slide19'
     },
     {
-        URL: 'Whitepaper/Slide20.png',
+        URL: 'Whitepaper/Slide20.jpg',
         alt: 'Slide20'
     },
     {
-        URL: 'Whitepaper/Slide21.png',
+        URL: 'Whitepaper/Slide21.jpg',
         alt: 'Slide21'
     },
     {
-        URL: 'Whitepaper/Slide22.png',
+        URL: 'Whitepaper/Slide22.jpg',
         alt: 'Slide22'
     },
     {
-        URL: 'Whitepaper/Slide23.png',
+        URL: 'Whitepaper/Slide23.jpg',
         alt: 'Slide23'
     },
     {
-        URL: 'Whitepaper/Slide24.png',
+        URL: 'Whitepaper/Slide24.jpg',
         alt: 'Slide24'
     },
     {
-        URL: 'Whitepaper/Slide25.png',
+        URL: 'Whitepaper/Slide25.jpg',
         alt: 'Slide25'
     },
     {
-        URL: 'Whitepaper/Slide26.png',
+        URL: 'Whitepaper/Slide26.jpg',
         alt: 'Slide26'
     },
     {
-        URL: 'Whitepaper/Slide27.png',
+        URL: 'Whitepaper/Slide27.jpg',
         alt: 'Slide27'
     },
     {
-        URL: 'Whitepaper/Slide28.png',
+        URL: 'Whitepaper/Slide28.jpg',
         alt: 'Slide28'
     },
     {
-        URL: 'Whitepaper/Slide29.png',
+        URL: 'Whitepaper/Slide29.jpg',
         alt: 'Slide29'
     },
     {
-        URL: 'Whitepaper/Slide30.png',
+        URL: 'Whitepaper/Slide30.jpg',
         alt: 'Slide30'
     },
     {
-        URL: 'Whitepaper/Slide31.png',
+        URL: 'Whitepaper/Slide31.jpg',
         alt: 'Slide31'
     },
 ]
