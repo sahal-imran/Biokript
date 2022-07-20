@@ -71,7 +71,7 @@ function OpenAccount() {
                                     <Typography variant="h2" sx={{
                                         fontSize: '14px', fontWeight: 400, color: 'black', fontFamily: "Source Sans Pro"
                                     }} component="div">
-                                        Enjoy tight spreads and low commission rates while trading BTC, ETH, LTC, XRP and BCH with 1:100 leverage
+                                        Enjoy tight spreads and low commission rates while trading BTC, ETH, LTC, XRP, and many other popular coins.
                                     </Typography>
                                 </Box>
                             </Box>
@@ -97,7 +97,7 @@ function OpenAccount() {
                                     <Typography variant="h2" sx={{
                                         fontSize: '14px', fontWeight: 400, color: 'black', fontFamily: "Source Sans Pro"
                                     }} component="div">
-                                        Multiple chart types, variety of indicators and drawing tools as well as ability to trade directly from the chart
+                                    One of the most high-performing order matching engines in the world, handling over 500,000 orders per second.
                                     </Typography>
                                 </Box>
                             </Box>

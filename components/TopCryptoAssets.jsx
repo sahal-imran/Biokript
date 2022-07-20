@@ -35,11 +35,11 @@ function TopCryptoAssets() {
                             TOP CRYPTO ASSETS
                         </Typography>
                         <Typography variant="h2" sx={{
-                            fontSize: '18px', lineHeight: '24px', fontWeight: 400, color: '#343a40', mb: '24px', fontFamily: "Source Sans Pro"
+                            fontSize: '22px', lineHeight: '28px', fontWeight: 600, color: '#343a40', mb: '24px', fontFamily: "Source Sans Pro"
                         }} component="div">
-                            Biokript is optimized for ease-of-use, offering simple order placement and high-quality charting tools to give you the best chance of success
+                            Biokript is the world’s first hybrid, Shariah-compliant trading platform where traders have full custody of their funds. 
                         </Typography>
-                        <Box sx={{ width: '86%', display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column' }} >
+                        {/* <Box sx={{ width: '86%', display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column' }} >
                             <Typography variant="h6" sx={{
                                 fontSize: {
                                     md:'30px',
@@ -61,7 +61,7 @@ function TopCryptoAssets() {
                             }} >
                                 start earning today
                             </Button>
-                        </Box>
+                        </Box> */}
                     </Box>
                     <Box sx={{ width: {
                         md:'58%',

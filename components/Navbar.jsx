@@ -24,7 +24,7 @@ function Navbar() {
       <Box component={'div'} sx={router.pathname === '/home' ? { position:'relative',zIndex: 999, width: '100%', backgroundColor: 'rgba(6,20,108,.5)', height: '70px' } : { position:'relative',zIndex: 999, width: '100%', backgroundColor: '#2b2e8e', height: '70px' }} >
         <Container maxWidth="xl" sx={{ height: '100%', display: 'flex', justifyContent: 'space-between', alignItems: 'center' }} >
           <Box component={'div'} sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center', position: 'relative', zIndex: 2,ml:{
-            md:'-40px'
+            md:'-70px'
           } }} >
             <Image
               src="/logo.png"

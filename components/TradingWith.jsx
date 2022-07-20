@@ -57,9 +57,9 @@ function TradingWith() {
                         }
                     }} >
                         <Typography variant="h2" sx={{
-                            fontSize: '18px', lineHeight: '28px', fontWeight: 400, color: '#787878', fontFamily: "Source Sans Pro", textAlign: 'center'
+                            fontSize: '18px', lineHeight: '28px', fontWeight: 400, color: '#787878', fontFamily: "Source Sans Pro", textAlign: 'center',textTransform:'capitalize'
                         }} component="div">
-                            Dynamic Cryptocurrency trading that puts you in the driver's seat
+                         worlds's first hybrid shariah compliant cryptocurrency platform
                         </Typography>
                     </Box>
                 </Box>
@@ -69,7 +69,7 @@ function TradingWith() {
                         xs:'start'
                     },mb:'30px',mt:7
                 }} component="div">
-                    Excute trades in microseconds without compromising reliability or security. Our latency trading platform has all the tools you need to make the most of market opportunities, whenever and where
+                    Execute self-custody trades in microseconds without compromising reliability or security. Our low latency hybrid platform has all the tools you need to succeed in today’s crypto market.
                 </Typography>
                 <Box sx={{width:'100%',display: 'flex', justifyContent: 'center', alignItems: 'center'}} >
                     <img src="/trading.png" style={{width:'100%',height:'100%',objectFit:'contain'}} alt="img" />

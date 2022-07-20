@@ -147,6 +147,9 @@ video{
   height: 100%;
   object-fit: cover;
 }
+/* .Grad{
+  background-Image: linear-gradient(to bottom right, rgba(0,0,0,0.8), rgba(0,0,0,0));
+} */
 @media screen and (max-width: 900px) {
   .Slider {
     background-color: black;

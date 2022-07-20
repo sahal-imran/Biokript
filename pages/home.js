@@ -15,7 +15,7 @@ function home() {
       <CryptoSlider />
       <TopCryptoAssets />
       <OurWorldClassTradingPlatform />
-      <Features />
+      {/* <Features /> */}
       <TradingWith />
       <Innovative />
       <OpenAccount />

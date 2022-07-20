@@ -44,158 +44,11 @@ function OurWorldClassTradingPlatform() {
                         }, flexDirection: 'column'
                     }} >
                         <Typography variant="h2" sx={{
-                            fontSize: '18px', lineHeight: '24px', fontWeight: 400, color: '#343a40', mb: '43px', fontFamily: "Source Sans Pro"
+                            fontSize: '22px', lineHeight: '28px', fontWeight: 600, color: '#343a40', mb: '43px', fontFamily: "Source Sans Pro"
                         }} component="div">
-                            Be one step ahead and Improve your trading results with our industry-leading technology
+                            {/* Be one step ahead and Improve your trading results with our industry-leading technology */}
+                            Biokript is blockchain-powered, state-of-the-art hybrid exchange, which combines the best features of of centralization and decentralization.
                         </Typography>
-                        <Box sx={{
-                            width: {
-                                md: '50%',
-                                xs: 'max-content'
-                            }, display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column', ml: {
-                                md: 9
-                            }
-                        }} >
-                            <Box sx={{
-                                width: '100%', display: 'flex', justifyContent: {
-                                    md: 'space-between',
-                                    xs: 'center'
-                                }, alignItems: {
-                                    md: 'center',
-                                    xs: 'start'
-                                }, flexDirection: {
-                                    md: 'row',
-                                    xs: 'column'
-                                }
-                            }} >
-                                <Box sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }} >
-                                    <Box sx={{ width: "15px", height: '15px', display: 'flex', justifyContent: 'center', alignItems: 'center', border: '2px solid #00ff0c' }} >
-                                        <DoneIcon sx={{ color: "#00ff0c", fontSize: '12px', fontWeight: 'bold' }} />
-                                    </Box>
-                                    <Typography variant="h2" sx={{
-                                        fontSize: '16px', mb: '2px', fontWeight: 400, color: '#777', fontFamily: "Source Sans Pro", ml: 2
-                                    }} component="div">
-                                        Easy Access
-                                    </Typography>
-                                </Box>
-                                <Box sx={{
-                                    display: 'flex', justifyContent: 'center', alignItems: 'center', mt: {
-                                        md: 0,
-                                        xs: 2
-                                    }
-                                }} >
-                                    <Box sx={{ width: "15px", height: '15px', display: 'flex', justifyContent: 'center', alignItems: 'center', border: '2px solid #00ff0c' }} >
-                                        <DoneIcon sx={{ color: "#00ff0c", fontSize: '12px', fontWeight: 'bold' }} />
-                                    </Box>
-                                    <Typography variant="h2" sx={{
-                                        fontSize: '16px', mb: '2px', fontWeight: 400, color: '#777', fontFamily: "Source Sans Pro", ml: 2
-                                    }} component="div">
-                                        Quick Balance Check
-                                    </Typography>
-                                </Box>
-                            </Box>
-                            <Box sx={{
-                                width: '100%', display: 'flex', justifyContent: {
-                                    md: 'space-between',
-                                    xs: 'center'
-                                }, alignItems: {
-                                    md: 'center',
-                                    xs: 'start'
-                                }, flexDirection: {
-                                    md: 'row',
-                                    xs: 'column'
-                                }, mt: {
-                                    md: 2,
-                                    xs: 2
-                                }
-                            }} >
-                                <Box sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }} >
-                                    <Box sx={{ width: "15px", height: '15px', display: 'flex', justifyContent: 'center', alignItems: 'center', border: '2px solid #00ff0c' }} >
-                                        <DoneIcon sx={{ color: "#00ff0c", fontSize: '12px', fontWeight: 'bold' }} />
-                                    </Box>
-                                    <Typography variant="h2" sx={{
-                                        fontSize: '16px', mb: '2px', fontWeight: 400, color: '#777', fontFamily: "Source Sans Pro", ml: 2
-                                    }} component="div">
-                                        Profit Booking
-                                    </Typography>
-                                </Box>
-                                <Box sx={{
-                                    display: 'flex', justifyContent: 'center', alignItems: 'center', mr: -3.5, mt: {
-                                        md: 0,
-                                        xs: 2
-                                    }
-                                }} >
-                                    <Box sx={{ width: "15px", height: '15px', display: 'flex', justifyContent: 'center', alignItems: 'center', border: '2px solid #00ff0c' }} >
-                                        <DoneIcon sx={{ color: "#00ff0c", fontSize: '12px', fontWeight: 'bold' }} />
-                                    </Box>
-                                    <Typography variant="h2" sx={{
-                                        fontSize: '16px', mb: '2px', fontWeight: 400, color: '#777', fontFamily: "Source Sans Pro", ml: 2
-                                    }} component="div">
-                                        Multi Window Platform
-                                    </Typography>
-                                </Box>
-                            </Box>
-                        </Box>
-                        <Box sx={{ flexGrow: 1, width: '90%', mt: 8 }}>
-                            <Grid container spacing={2}>
-                                <Grid item xs={12} md={6}>
-                                    <Box sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column' }} >
-                                        <Typography variant="h2" sx={{
-                                            fontSize: '45px', fontWeight: 400, color: '#414851', mb: '25px', fontFamily: "Source Sans Pro"
-                                        }} component="div">
-                                            {'<7.12ms'}
-                                        </Typography>
-                                        <Typography variant="h2" sx={{
-                                            fontSize: '17px', fontWeight: 400, color: '#414851', fontFamily: "Source Sans Pro"
-                                        }} component="div">
-                                            Average order execution speed
-                                        </Typography>
-                                    </Box>
-                                </Grid>
-                                <Grid item xs={12} md={6}>
-                                    <Box sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column' }} >
-                                        <Typography variant="h2" sx={{
-                                            fontSize: '45px', fontWeight: 400, color: '#414851', mb: '25px', fontFamily: "Source Sans Pro"
-                                        }} component="div">
-                                            {'12+'}
-                                        </Typography>
-                                        <Typography variant="h2" sx={{
-                                            fontSize: '17px', fontWeight: 400, color: '#414851', fontFamily: "Source Sans Pro"
-                                        }} component="div">
-                                            Integrated liquidity providers
-                                        </Typography>
-                                    </Box>
-                                </Grid>
-                                <Grid item xs={12} md={6}>
-                                    <Box sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column' }} >
-                                        <Typography variant="h2" sx={{
-                                            fontSize: '45px', fontWeight: 400, color: '#414851', mb: '25px', fontFamily: "Source Sans Pro"
-                                        }} component="div">
-                                            {'>12K'}
-                                        </Typography>
-                                        <Typography variant="h2" sx={{
-                                            fontSize: '17px', fontWeight: 400, color: '#414851', fontFamily: "Source Sans Pro"
-                                        }} component="div">
-                                            Executed ordersper second
-                                        </Typography>
-                                    </Box>
-                                </Grid>
-                                <Grid item xs={12} md={6}>
-                                    <Box sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column' }} >
-                                        <Typography variant="h2" sx={{
-                                            fontSize: '45px', fontWeight: 400, color: '#414851', mb: '25px', fontFamily: "Source Sans Pro"
-                                        }} component="div">
-                                            {'$54B'}
-                                        </Typography>
-                                        <Typography variant="h2" sx={{
-                                            fontSize: '17px', fontWeight: 400, color: '#414851', fontFamily: "Source Sans Pro"
-                                        }} component="div">
-
-                                        </Typography>
-                                    </Box>
-                                </Grid>
-                            </Grid>
-                        </Box>
                     </Box>
                     <Box sx={{
                         width: {
@@ -218,4 +71,8 @@ function OurWorldClassTradingPlatform() {
     )
 }
 
-export default OurWorldClassTradingPlatform
+export default OurWorldClassTradingPlatform;
+
+
+
+

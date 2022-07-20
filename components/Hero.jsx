@@ -35,20 +35,22 @@ function Hero() {
 
     return (
         <>
-            <Box sx={{ position: 'relative', overflow: 'hidden',mt:'-70px' }} >
+            <Box sx={{ position: 'relative', overflow: 'hidden', mt: '-70px' }} >
                 <Box>
                     <Slider ref={c => (slider.current = c)} style={{ width: '100vw', height: 'calc(100vh)' }} {...settings}>
                         <Box sx={{ width: '100%', height: '100%', position: 'relative' }} >
                             <Box sx={{ width: '100%', height: "100%" }} >
                                 <img style={{ width: '100%', height: '100vh', objectFit: 'cover' }} src="/slide1.jpg" alt="slideBG" />
+                                <Box sx={{ backgroundImage: "linear-gradient(to bottom right, rgba(0,0,0,1), rgba(0,0,0,0.2), rgba(0,0,0,0), rgba(0,0,0,0))", width: '100%', height: '100%', position: 'absolute',top:'0px' }} >
+                                </Box>
                             </Box>
                             <Container maxWidth="lg" sx={{
                                 height: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: {
                                     md: 'row',
                                     xs: 'column'
                                 }, position: 'absolute', top: {
-                                    md:'45%',
-                                    xs:'50%'
+                                    md: '45%',
+                                    xs: '50%'
                                 }, left: '50%', transform: "translate(-50%,-50%)", zIndex: 1, mt: {
                                     md: 0,
                                     xs: 6
@@ -60,25 +62,29 @@ function Hero() {
                                         xs: '100%'
                                     }, display: 'flex', justifyContent: 'center', alignItems: 'start', flexDirection: 'column'
                                 }} >
-                                    <Typography variant="h6" sx={{ fontSize: {
+                                    <Typography variant="h6" sx={{
+                                        fontSize: {
                                             md: '50px',
                                             xs: '30px'
                                         }, fontWeight: 700, color: 'white', mb: {
                                             md: '60px',
-                                            xs: '30px',lineHeight:{
-                                                md:'60px',
-                                                xs:'40px'
+                                            xs: '30px', lineHeight: {
+                                                md: '60px',
+                                                xs: '40px'
                                             }
-                                        } }} component="div">
+                                        }
+                                    }} component="div">
                                         World's first hybrid Shariah-compliant trading platform
                                     </Typography>
-                                    <Typography variant="h6" sx={{ fontSize: {
+                                    <Typography variant="h6" sx={{
+                                        fontSize: {
                                             md: '24px',
                                             xs: '20px'
                                         }, fontWeight: 400, color: 'white', mb: {
-                                            md:'50px',
-                                            xs:'30px'
-                                        } }} component="div">
+                                            md: '50px',
+                                            xs: '30px'
+                                        }
+                                    }} component="div">
                                         Trade with Top altcoins on our crypto asset exchange
                                     </Typography>
                                     <Button variant='contained' sx={{
@@ -93,7 +99,7 @@ function Hero() {
                                     width: {
                                         md: '40%',
                                         xs: '100%'
-                                    }, display: 'flex', justifyContent: 'center', alignItems: 'center',mt: {
+                                    }, display: 'flex', justifyContent: 'center', alignItems: 'center', mt: {
                                         md: 0,
                                         xs: 4
                                     }
@@ -134,10 +140,7 @@ function Hero() {
                                 </Box>
                             </Container>
                         </Box>
-                        <Box sx={{ width: '100%', height: '100%', position: 'relative',height:'100vh',background:"radial-gradient(rgba(31,53,219),black)" }} >
-                            {/* <Box sx={{ width: '100%', height: "100%" }} >
-                                <img style={{ width: '100%', height: '100vh', objectFit: 'cover' }} src="/slide2.jpg" alt="slideBG" />
-                            </Box> */}
+                        {/* <Box sx={{ width: '100%', height: '100%', position: 'relative',height:'100vh',background:"radial-gradient(rgba(31,53,219),black)" }} >
                             <Container maxWidth="lg" sx={{
                                 height: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: {
                                     md: 'row',
@@ -201,10 +204,10 @@ function Hero() {
                                     <img style={{ width: '100%', height: '100%' }} src="/bit.png" alt="img" />
                                 </Box>
                             </Container>
-                        </Box>
+                        </Box> */}
                     </Slider>
                 </Box>
-                <ArrowBackIosNewIcon onClick={() => previous()} sx={{
+                {/* <ArrowBackIosNewIcon onClick={() => previous()} sx={{
                     transition: ' all 0.5s ease', fontSize: '40px', color: 'white', cursor: 'pointer', position: 'absolute', top: '45%', left: {
                         md: '80px',
                         xs: '30px'
@@ -221,7 +224,7 @@ function Hero() {
                         opacity: 1,
                         transform: 'scale(1.2)'
                     }
-                }} />
+                }} /> */}
             </Box>
         </>
     )
