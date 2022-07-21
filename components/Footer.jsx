@@ -174,6 +174,7 @@ function Footer() {
                                             color: 'white'
                                         }
                                     }} component="div">
+                                        Sarajevo, 71,000 Bosnia and Herzegovina <br />
                                         Glendale, Arizona, United States
                                     </Typography>
                                 </Box>

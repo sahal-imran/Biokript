@@ -50,7 +50,7 @@ export default function Innovative() {
                                             lg:'100px'
                                         },display: 'flex', justifyContent: 'center', alignItems: 'start'
                                     }} component="div">
-                                        LEGALLY INCORPORATED
+                                        LEGALLY<br /> INCORPORATED
                                     </Typography>
                                     <Typography variant="h2" sx={{
                                         fontSize: '16px', lineHeight: '24px', fontWeight: 500, color: '#5d5d5d', fontFamily: "Source Sans Pro", textAlign: 'start',mt:{
@@ -72,7 +72,7 @@ export default function Innovative() {
                                             lg:'100px'
                                         },display: 'flex', justifyContent: 'center', alignItems: 'start'
                                     }} component="div">
-                                        PROFIT SHARING
+                                        PROFIT<br /> SHARING
                                     </Typography>
                                     <Typography variant="h2" sx={{
                                         fontSize: '16px', lineHeight: '24px', fontWeight: 500, color: '#5d5d5d', fontFamily: "Source Sans Pro", textAlign: 'start',mt:{
