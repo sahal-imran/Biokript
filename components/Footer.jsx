@@ -165,9 +165,7 @@ function Footer() {
                             <Box sx={{ width: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center' }} >
                                 <Box sx={{ width: '10%', display: 'flex', justifyContent: 'center', alignItems: 'start', flexDirection: 'column' }} >
                                     <LocationOnIcon sx={{
-                                        color: '#dbdfff', fontSize: '28px', mb: {
-                                            md: 4
-                                        }
+                                        color: '#dbdfff', fontSize: '28px',
                                     }} />
                                 </Box>
                                 <Box sx={{ width: '90%', display: 'flex', justifyContent: 'center', alignItems: 'start', flexDirection: 'column' }} >
@@ -176,7 +174,6 @@ function Footer() {
                                             color: 'white'
                                         }
                                     }} component="div">
-                                        BIOKRIPT<br />
                                         Glendale, Arizona, United States
                                     </Typography>
                                 </Box>
