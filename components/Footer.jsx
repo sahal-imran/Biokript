@@ -6,15 +6,11 @@ import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
 import DoneIcon from '@mui/icons-material/Done';
 import Grid from '@mui/material/Grid';
-import Link from '@mui/material/Link';
+import AnchorLink from '@mui/material/Link';
 import MailIcon from '@mui/icons-material/Mail';
 import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 import LocationOnIcon from '@mui/icons-material/LocationOn';
-import { FaFacebookF } from 'react-icons/fa'
-import { BsTwitter } from 'react-icons/bs'
-import { FaPinterestP } from 'react-icons/fa'
-import { FaTelegramPlane } from 'react-icons/fa'
-import { FaLinkedinIn } from 'react-icons/fa'
+import Link from 'next/link';
 import { useRouter } from 'next/router';
 
 
@@ -82,7 +78,10 @@ function Footer() {
                             width: {
                                 md: '33%',
                                 xs: '100%'
-                            }, height: '100%', display: 'flex', justifyContent: 'start', alignItems: 'start', flexDirection: 'column', mt: {
+                            }, height: '100%', display: 'flex', justifyContent: 'start', alignItems: {
+                                md: 'center',
+                                xs: 'start'
+                            }, flexDirection: 'column', mt: {
                                 md: 0,
                                 xs: 4
                             }
@@ -101,45 +100,30 @@ function Footer() {
                                     <Box component={'span'} sx={{ width: '18px', height: '2px', backgroundColor: 'white', opacity: .4, mt: .3, }} ></Box>
                                 </Box>
                             </Box>
-                            <Box sx={{ width: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center', mt: 4 }} >
-                                <Box sx={{ width: '50%', display: 'flex', justifyContent: 'center', alignItems: 'start', flexDirection: 'column' }} >
-                                    <Link href='' className='FooterLink' sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center', transition: 'all 0.5s ease', color: '#dbdfff', fontWeight: 400, fontFamily: "Source Sans Pro", fontSize: '14px', textDecoration: 'none', textTransform: 'capitalize' }} >
-                                        <ArrowForwardIosIcon className='arrow' sx={{ fontSize: '12px', color: '#0d579e', opacity: 0, ml: -1, transition: 'all 0.5s ease', fontWeight: 900 }} />
-                                        About Us
+                            <Box sx={{
+                                width: {
+                                    md: '25%',
+                                    xs: '100%'
+                                }, display: 'flex', justifyContent: 'center', alignItems: 'center', mt: 4
+                            }} >
+                                <Box sx={{ width: '100%', display: 'flex', justifyContent: 'center', alignItems: 'start', flexDirection: 'column' }} >
+                                    <Link href="/" >
+                                        <a className='FooterLink' style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', transition: 'all 0.5s ease', color: '#dbdfff', fontWeight: 400, fontFamily: "Source Sans Pro", fontSize: '14px', textDecoration: 'none', textTransform: 'capitalize' }} >
+                                            <ArrowForwardIosIcon className='arrow' sx={{ fontSize: '12px', color: '#0d579e', opacity: 0, ml: -1, transition: 'all 0.5s ease', fontWeight: 900 }} />
+                                            Home
+                                        </a>
                                     </Link>
-                                    <Link href='' className='FooterLink' sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center', transition: 'all 0.5s ease', color: '#dbdfff', fontWeight: 400, fontFamily: "Source Sans Pro", fontSize: '14px', textDecoration: 'none', textTransform: 'capitalize', mt: 2 }} >
-                                        <ArrowForwardIosIcon className='arrow' sx={{ fontSize: '12px', color: '#0d579e', opacity: 0, ml: -1, transition: 'all 0.5s ease', fontWeight: 900 }} />
-                                        Referral
+                                    <Link href="/about" >
+                                        <a className='FooterLink' style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', transition: 'all 0.5s ease', color: '#dbdfff', fontWeight: 400, fontFamily: "Source Sans Pro", fontSize: '14px', textDecoration: 'none', textTransform: 'capitalize',marginTop:'10px' }} >
+                                            <ArrowForwardIosIcon className='arrow' sx={{ fontSize: '12px', color: '#0d579e', opacity: 0, ml: -1, transition: 'all 0.5s ease', fontWeight: 900 }} />
+                                            About Us
+                                        </a>
                                     </Link>
-                                    <Link href='' className='FooterLink' sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center', transition: 'all 0.5s ease', color: '#dbdfff', fontWeight: 400, fontFamily: "Source Sans Pro", fontSize: '14px', textDecoration: 'none', textTransform: 'capitalize', mt: 2 }} >
-                                        <ArrowForwardIosIcon className='arrow' sx={{ fontSize: '12px', color: '#0d579e', opacity: 0, ml: -1, transition: 'all 0.5s ease', fontWeight: 900 }} />
-                                        Enquiry
-                                    </Link>
-                                    <Link href='' className='FooterLink' sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center', transition: 'all 0.5s ease', color: '#dbdfff', fontWeight: 400, fontFamily: "Source Sans Pro", fontSize: '14px', textDecoration: 'none', textTransform: 'capitalize', mt: 2 }} >
-                                        <ArrowForwardIosIcon className='arrow' sx={{ fontSize: '12px', color: '#0d579e', opacity: 0, ml: -1, transition: 'all 0.5s ease', fontWeight: 900 }} />
-                                        API
-                                    </Link>
-                                    <Link href='' className='FooterLink' sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center', transition: 'all 0.5s ease', color: '#dbdfff', fontWeight: 400, fontFamily: "Source Sans Pro", fontSize: '14px', textDecoration: 'none', textTransform: 'capitalize', mt: 2 }} >
-                                        <ArrowForwardIosIcon className='arrow' sx={{ fontSize: '12px', color: '#0d579e', opacity: 0, ml: -1, transition: 'all 0.5s ease', fontWeight: 900 }} />
-                                        Coin info
-                                    </Link>
-                                </Box>
-                                <Box sx={{ width: '50%', display: 'flex', justifyContent: 'center', alignItems: 'start', flexDirection: 'column' }} >
-                                    <Link href='' className='FooterLink' sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center', transition: 'all 0.5s ease', color: '#dbdfff', fontWeight: 400, fontFamily: "Source Sans Pro", fontSize: '14px', textDecoration: 'none', textTransform: 'capitalize' }} >
-                                        <ArrowForwardIosIcon className='arrow' sx={{ fontSize: '12px', color: '#0d579e', opacity: 0, ml: -1, transition: 'all 0.5s ease', fontWeight: 900 }} />
-                                        Trade
-                                    </Link>
-                                    <Link href='' className='FooterLink' sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center', transition: 'all 0.5s ease', color: '#dbdfff', fontWeight: 400, fontFamily: "Source Sans Pro", fontSize: '14px', textDecoration: 'none', textTransform: 'capitalize', mt: 2 }} >
-                                        <ArrowForwardIosIcon className='arrow' sx={{ fontSize: '12px', color: '#0d579e', opacity: 0, ml: -1, transition: 'all 0.5s ease', fontWeight: 900 }} />
-                                        Fee&Conditions
-                                    </Link>
-                                    <Link href='' className='FooterLink' sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center', transition: 'all 0.5s ease', color: '#dbdfff', fontWeight: 400, fontFamily: "Source Sans Pro", fontSize: '14px', textDecoration: 'none', textTransform: 'capitalize', mt: 2 }} >
-                                        <ArrowForwardIosIcon className='arrow' sx={{ fontSize: '12px', color: '#0d579e', opacity: 0, ml: -1, transition: 'all 0.5s ease', fontWeight: 900 }} />
-                                        Security
-                                    </Link>
-                                    <Link href='' className='FooterLink' sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center', transition: 'all 0.5s ease', color: '#dbdfff', fontWeight: 400, fontFamily: "Source Sans Pro", fontSize: '14px', textDecoration: 'none', textTransform: 'capitalize', mt: 2 }} >
-                                        <ArrowForwardIosIcon className='arrow' sx={{ fontSize: '12px', color: '#0d579e', opacity: 0, ml: -1, transition: 'all 0.5s ease', fontWeight: 900 }} />
-                                        Bonus
+                                    <Link href="/whitepaper" >
+                                        <a className='FooterLink' style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', transition: 'all 0.5s ease', color: '#dbdfff', fontWeight: 400, fontFamily: "Source Sans Pro", fontSize: '14px', textDecoration: 'none', textTransform: 'capitalize',marginTop:'10px' }} >
+                                            <ArrowForwardIosIcon className='arrow' sx={{ fontSize: '12px', color: '#0d579e', opacity: 0, ml: -1, transition: 'all 0.5s ease', fontWeight: 900 }} />
+                                            Whitepaper
+                                        </a>
                                     </Link>
                                 </Box>
                             </Box>
@@ -176,7 +160,7 @@ function Footer() {
                                     xs: 0
                                 }, fontFamily: "Source Sans Pro", mt: 4
                             }} component="div">
-                                Our support available to help you 24 / 7
+                                Biokript@gmail.com
                             </Typography>
                             <Box sx={{ width: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center' }} >
                                 <Box sx={{ width: '10%', display: 'flex', justifyContent: 'center', alignItems: 'start', flexDirection: 'column' }} >
@@ -188,18 +172,18 @@ function Footer() {
                                 </Box>
                                 <Box sx={{ width: '90%', display: 'flex', justifyContent: 'center', alignItems: 'start', flexDirection: 'column' }} >
                                     <Typography variant="h2" sx={{
-                                        fontSize: '14px', lineHeight: '24px', fontWeight: 400, color: '#dbdfff', fontFamily: "Source Sans Pro", mt: 4, "&:hover": {
+                                        fontSize: '14px', lineHeight: '24px', fontWeight: 400, color: '#dbdfff', fontFamily: "Source Sans Pro", "&:hover": {
                                             color: 'white'
                                         }
                                     }} component="div">
                                         BIOKRIPT<br />
-                                        Sarajevo, 71000, Bosnia and Herzegovina
+                                        Glendale, Arizona, United States
                                     </Typography>
                                 </Box>
                             </Box>
                         </Box>
                     </Box>
-                    <Box sx={{ width: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center', position: 'relative', zIndex: 2 }} >
+                    {/* <Box sx={{ width: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center', position: 'relative', zIndex: 2 }} >
                         <Link className='IconBox' href='' sx={{ width: '36px', height: '36px', display: 'flex', justifyContent: 'center', alignItems: 'center', backgroundColor: 'white', borderRadius: '50px', textDecoration: 'none', transition: 'all 0.3s ease' }} >
                             <FaFacebookF className='Icon' />
                         </Link>
@@ -215,7 +199,7 @@ function Footer() {
                         <Link className='IconBox' href='' sx={{ width: '36px', height: '36px', display: 'flex', justifyContent: 'center', alignItems: 'center', backgroundColor: 'white', borderRadius: '50px', textDecoration: 'none', transition: 'all 0.3s ease', ml: 2 }} >
                             <FaLinkedinIn className='Icon' />
                         </Link>
-                    </Box>
+                    </Box> */}
                     <Box sx={{ width: '100%', height: '2px', backgroundColor: '#508fc7', mt: -2.3 }} ></Box>
                     <Box sx={{
                         width: '100%', display: 'flex', justifyContent: {
@@ -238,17 +222,17 @@ function Footer() {
                                 xs: 1
                             }
                         }} >
-                            <Link href='' sx={{
+                            <AnchorLink href='' sx={{
                                 color: '#dbdfff', fontSize: '12px', fontWeight: 400, color: '#dbdfff', fontFamily: "Source Sans Pro", textDecoration: 'none', "&:hover": {
                                     color: 'white'
                                 }
-                            }} >Terms of Use</Link>
+                            }} >Terms of Use</AnchorLink>
                             <Box component={'span'} sx={{ color: '#508fc7', mx: 2 }} >/</Box>
-                            <Link href='' sx={{
+                            <AnchorLink href='' sx={{
                                 color: '#dbdfff', fontSize: '12px', fontWeight: 400, color: '#dbdfff', fontFamily: "Source Sans Pro", textDecoration: 'none', "&:hover": {
                                     color: 'white'
                                 }
-                            }} >Privacy Policy</Link>
+                            }} >Privacy Policy</AnchorLink>
                         </Box>
                     </Box>
                 </Container>

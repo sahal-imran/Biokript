@@ -19,14 +19,14 @@ export default function Innovative() {
             }} >
                 <Box sx={{ flexGrow: 1, width: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center', }}>
                     <Grid container spacing={2}>
-                        <Grid item xs={12} md={4}>
+                        <Grid item xs={12} lg={4}>
                             <Box className='Main' sx={{ width: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column', backgroundColor: 'white', transition: 'all 0.5s ease' }} >
                                 <RocketLaunchIcon className='sign' sx={{ fontSize: '60px', transition: 'all 0.5s ease', color: '#5d5d5d' }} />
                                 <Box className='Sub' sx={{ width: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column', mt: 6, p: 4, transition: 'all 0.5s ease', borderBottom: '7px solid transparent' }} >
                                     <Typography variant="h6" sx={{
-                                        fontSize: '20px', fontWeight: 600, color: '#0f579f', textAlign: 'center',minHeight:{
-                                            md:'80px'
-                                        },display: 'flex', justifyContent: 'center', alignItems: 'center'
+                                        fontSize: '20px', fontWeight: 600, color: '#0f579f', textAlign: 'center',height:{
+                                            lg:'100px'
+                                        },display: 'flex', justifyContent: 'center', alignItems: 'start'
                                     }} component="div">
                                         THE NEXT GENERATION CRYPTOCURRENCY EXCHANGE
                                     </Typography>
@@ -41,14 +41,14 @@ export default function Innovative() {
                                 </Box>
                             </Box>
                         </Grid>
-                        <Grid item xs={12} md={4}>
+                        <Grid item xs={12} lg={4}>
                             <Box className='Main' sx={{ width: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column', backgroundColor: 'white', transition: 'all 0.5s ease' }} >
                                 <BalanceIcon className='sign' sx={{ fontSize: '60px', transition: 'all 0.5s ease', color: '#5d5d5d' }} />
                                 <Box className='Sub' sx={{ width: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column', mt: 6, p: 4, transition: 'all 0.5s ease', borderBottom: '7px solid transparent' }} >
                                     <Typography variant="h6" sx={{
-                                        fontSize: '20px', fontWeight: 600, color: '#0f579f', textAlign: 'center',minHeight:{
-                                            md:'80px'
-                                        },display: 'flex', justifyContent: 'center', alignItems: 'center'
+                                        fontSize: '20px', fontWeight: 600, color: '#0f579f', textAlign: 'center',height:{
+                                            lg:'100px'
+                                        },display: 'flex', justifyContent: 'center', alignItems: 'start'
                                     }} component="div">
                                         LEGALLY INCORPORATED
                                     </Typography>
@@ -63,14 +63,14 @@ export default function Innovative() {
                                 </Box>
                             </Box>
                         </Grid>
-                        <Grid item xs={12} md={4}>
+                        <Grid item xs={12} lg={4}>
                             <Box className='Main' sx={{ width: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column', backgroundColor: 'white', transition: 'all 0.5s ease' }} >
                                 <ShareIcon className='sign' sx={{ fontSize: '60px', transition: 'all 0.5s ease', color: '#5d5d5d' }} />
                                 <Box className='Sub' sx={{ width: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column', mt: 6, p: 4, transition: 'all 0.5s ease', borderBottom: '7px solid transparent' }} >
                                     <Typography variant="h6" sx={{
-                                        fontSize: '20px', fontWeight: 600, color: '#0f579f', textAlign: 'center',minHeight:{
-                                            md:'80px'
-                                        },display: 'flex', justifyContent: 'center', alignItems: 'center'
+                                        fontSize: '20px', fontWeight: 600, color: '#0f579f', textAlign: 'center',height:{
+                                            lg:'100px'
+                                        },display: 'flex', justifyContent: 'center', alignItems: 'start'
                                     }} component="div">
                                         PROFIT SHARING
                                     </Typography>

@@ -117,7 +117,7 @@ function CryptoSlider() {
             <Box sx={{
                 position: 'relative', overflow: 'hidden', mt: {
                     md: '-94px',
-                    xs: '-1px'
+                    xs: '-5px'
                 }
             }} >
                 <Box>
