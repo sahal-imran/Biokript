@@ -6,7 +6,6 @@ import VideoJS from './VideoJS';
 
 function VideoIntro() {
 
-  const [PlayVid, Set_play_Vid] = useState(true)
 
   const router = useRouter();
   useEffect(() => {
@@ -27,10 +26,9 @@ function VideoIntro() {
         width='100%'
         height='100%'
         volume={1}
-        muted={PlayVid}
+        muted={true}
         playing={true}
         onEnded={() => router.push('/home')}
-        onReady={() => Set_play_Vid(false)}
       // controls={true}
       // loop={false}
       />
