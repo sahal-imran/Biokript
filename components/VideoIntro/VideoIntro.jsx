@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react';
 import Box from "@mui/material/Box";
 import ReactPlayer from 'react-player';
 import { useRouter } from 'next/router';
-import VideoJS from './VideoJS';
 
 function VideoIntro() {
 
