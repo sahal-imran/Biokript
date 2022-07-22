@@ -1,9 +1,12 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import Box from "@mui/material/Box";
 import ReactPlayer from 'react-player';
 import { useRouter } from 'next/router';
+import VideoJS from './VideoJS';
 
 function VideoIntro() {
+
+  const [PlayVid, Set_play_Vid] = useState(true)
 
   const router = useRouter();
   useEffect(() => {
@@ -23,17 +26,14 @@ function VideoIntro() {
         url={'/video/video.mp4'}
         width='100%'
         height='100%'
-        volume={0.1}
-        muted={true}
+        volume={1}
+        muted={PlayVid}
         playing={true}
         onEnded={() => router.push('/home')}
+        onReady={() => Set_play_Vid(false)}
       // controls={true}
       // loop={false}
       />
-      {/* <video width="100%" height="100%" muted autoPlay>
-        <source src="/video/video.mp4" type="video/mp4" />
-        <source src="/video/video.egg" type="video/ogg" />
-      </video> */}
     </Box>
   )
 }

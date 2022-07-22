@@ -92,7 +92,7 @@ function OpenAccount() {
                                     <Typography variant="h2" sx={{
                                         fontSize: '18px', fontWeight: 600, color: '#414851', fontFamily: "Source Sans Pro", mb: '20px'
                                     }} component="div">
-                                        Powerful Charting Engine
+                                        Powerful Order Matching Engine
                                     </Typography>
                                     <Typography variant="h2" sx={{
                                         fontSize: '14px', fontWeight: 400, color: 'black', fontFamily: "Source Sans Pro"

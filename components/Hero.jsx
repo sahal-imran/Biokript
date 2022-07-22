@@ -55,7 +55,7 @@ function Hero() {
                             }} >
                                 <Typography variant="h6" sx={{
                                     fontSize: {
-                                        md: '50px',
+                                        md: '48px',
                                         xs: '30px'
                                     }, fontWeight: 700, color: 'white', mb: {
                                         md: '60px',
