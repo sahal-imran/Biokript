@@ -86,7 +86,7 @@ function CryptoSlider() {
 
     const RequestCryptoDetails = () => {
         axios.request(options).then(function (response) {
-            console.log(response.data.data.coins);
+            // console.log(response.data.data.coins);
             setTrendingCoins(response.data.data.coins);
         }).catch(function (error) {
             console.error(" error coinRanking" + error);
